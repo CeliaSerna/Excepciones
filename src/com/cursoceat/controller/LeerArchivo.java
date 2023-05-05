@@ -12,7 +12,7 @@ public class LeerArchivo {
 	String texto= "";
 	
 	try {
-	archivo= new FileReader("C:\\Users\\PROGRAMACION\\Documents\\prueba.txt");
+	archivo= new FileReader("C:\\Users\\PROGRAMACION\\Documentos\\prueba.txt");
 	int c=archivo.read();
 	while(c!=-1) {
 		texto+=(char)c;

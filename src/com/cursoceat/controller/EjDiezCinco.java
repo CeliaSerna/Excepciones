@@ -13,7 +13,7 @@ public class EjDiezCinco {
 
 	BufferedReader in= null;
 	try {
-	in= new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\OneDrive - CENTRO DE ESTUDIOS CEAT\\Documentos\\numerosRealesFilas.txt"));
+	in= new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\Documentos\\numerosRealesFilas.txt"));
 	Scanner entrada;
 	double numero;
 	double suma=0;

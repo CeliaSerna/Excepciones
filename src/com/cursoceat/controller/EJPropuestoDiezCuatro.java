@@ -19,7 +19,7 @@ public class EJPropuestoDiezCuatro {
 			while (cadena!="fin") {
 			
 			cadena= entrada.next();
-			out= new BufferedWriter(new FileWriter("C:\\Users\\PROGRAMACION\\OneDrive - CENTRO DE ESTUDIOS CEAT\\Documentos\\texto.txt"));
+			out= new BufferedWriter(new FileWriter("C:\\Users\\PROGRAMACION\\Documentos\\texto.txt"));
 
 		 out.newLine();
 		 out.write(cadena);

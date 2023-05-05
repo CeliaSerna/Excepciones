@@ -21,7 +21,7 @@ public class EjPropuesto {
 	double sumaEstaturas=0.;
 		
 	try {
-	entrada = new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\OneDrive - CENTRO DE ESTUDIOS CEAT\\Documentos\\jugadores.txt"));
+	entrada = new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\Documentos\\jugadores.txt"));
 
 String linea= entrada.readLine();
 
@@ -46,7 +46,7 @@ while(linea!=null) {
 		}
 	}
 }
-System.out.println("Media de edades "+sumaEdades/contador +" años");
+System.out.println("Media de edades "+sumaEdades/contador +" aï¿½os");
 System.out.println("Media de estaturas "+sumaEstaturas/contador +" metros");
 		
 

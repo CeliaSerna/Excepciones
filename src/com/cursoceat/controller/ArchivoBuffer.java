@@ -10,7 +10,7 @@ public class ArchivoBuffer {
 BufferedReader in=null;
 String texto="";
 try {
-	in= new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\OneDrive - CENTRO DE ESTUDIOS CEAT\\Documentos\\prueba.txt"));
+	in= new BufferedReader(new FileReader("C:\\Users\\PROGRAMACION\\Documentos\\prueba.txt"));
 	String linea = in.readLine();
 	while(linea!=null) {
 		

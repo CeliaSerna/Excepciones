@@ -11,7 +11,7 @@ public class EjDiezSeis {
 
 FileInputStream flujo = null;
 try {
-	flujo= new FileInputStream("C:\\Users\\PROGRAMACION\\OneDrive - CENTRO DE ESTUDIOS CEAT\\Documentos\\numerosRealesFilas.txt");
+	flujo= new FileInputStream("C:\\Users\\PROGRAMACION\\Documentos\\numerosRealesFilas.txt");
 }catch(FileNotFoundException ex) {
 	System.out.println(ex.getMessage());
 }

@@ -13,7 +13,7 @@ public class NumerosReales {
 		
 	BufferedReader in = null;
 	try {
-		in=new BufferedReader (new FileReader("C:\\Users\\PROGRAMACION\\Documents\\NumerosReales.txt"));
+		in=new BufferedReader (new FileReader("C:\\Users\\PROGRAMACION\\Documentos\\NumerosReales.txt"));
 	String texto= in.readLine();
 	//convertimos el texto en un array y como separador
 	//una coma o tambien podria ser un espacio
