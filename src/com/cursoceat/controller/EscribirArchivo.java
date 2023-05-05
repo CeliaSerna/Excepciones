@@ -23,11 +23,11 @@ public class EscribirArchivo {
 	out.newLine();
 	out.write(cadena);
 	
-	cadena="No ha mucho tiempo que vivï¿½a un hidalgo de los de lanza en astillero,";
+	cadena="No ha mucho tiempo que vivía un hidalgo de los de lanza en astillero,";
 	out.newLine();
 	out.write(cadena);
 	
-	cadena="adarga antigua, rocï¿½n flaco y galgo corredor.";
+	cadena="adarga antigua, rocín flaco y galgo corredor.";
 	out.newLine();
 	out.write(cadena);
 	

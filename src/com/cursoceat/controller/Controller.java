@@ -23,6 +23,7 @@ public class Controller {
 	String apellido= entrada.nextLine();
 	System.out.println(capitalizar2(apellido));
 	
+	entrada.close();
 	}
 
 	public static String capitalizar(String n) {
@@ -45,6 +46,7 @@ public class Controller {
 			ape="";
 		}
 	return ape;
+	
 	}
 	
 	

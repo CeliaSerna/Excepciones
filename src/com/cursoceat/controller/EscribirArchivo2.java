@@ -12,7 +12,7 @@ public class EscribirArchivo2 {
 
 //actividad resuelta 10.7
 		
-		try {BufferedWriter out= new BufferedWriter(new FileWriter("C:\\Users\\PROGRAMACION\\Documentos\\quijote2.txt"));
+		try (BufferedWriter out= new BufferedWriter(new FileWriter("C:\\Users\\PROGRAMACION\\Documentos\\quijote2.txt"))) {
 		String cadena="En un lugar de la mancha,";
 		for (int i=0; i< cadena.length(); i++) {
 			out.write(cadena.charAt(i));
@@ -24,7 +24,7 @@ public class EscribirArchivo2 {
 			System.out.println(e.getMessage());
 		}
 		
-		
+	
 	}
 
 }

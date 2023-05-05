@@ -46,7 +46,7 @@ while(linea!=null) {
 		}
 	}
 }
-System.out.println("Media de edades "+sumaEdades/contador +" aï¿½os");
+System.out.println("Media de edades "+sumaEdades/contador +" años");
 System.out.println("Media de estaturas "+sumaEstaturas/contador +" metros");
 		
 
